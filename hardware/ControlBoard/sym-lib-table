@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "interstate_symbols")(type "KiCad")(uri "${KIPRJMOD}/interstate_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "controlLib")(type "KiCad")(uri "${KIPRJMOD}/parts/controlLib.kicad_sym")(options "")(descr ""))
 )
