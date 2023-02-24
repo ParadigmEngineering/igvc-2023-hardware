@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "interstate_footprints")(type "KiCad")(uri "${KIPRJMOD}/interstate_footprints.pretty")(options "")(descr ""))
   (lib (name "controlLib")(type "KiCad")(uri "${KIPRJMOD}/parts/footprints/controlLib.pretty")(options "")(descr ""))
+  (lib (name "Custom Library")(type "KiCad")(uri "/Users/lukecronin/Desktop/KiCad Stuff/Library/footprints.pretty")(options "")(descr ""))
 )
