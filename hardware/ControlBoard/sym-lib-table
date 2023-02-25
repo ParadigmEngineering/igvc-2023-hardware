@@ -4,4 +4,5 @@
   (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32-S3.kicad_sym")(options "")(descr ""))
   (lib (name "SS8050")(type "KiCad")(uri "${KIPRJMOD}/parts/SS8050-G.kicad_sym")(options "")(descr ""))
   (lib (name "CP2102-GM")(type "KiCad")(uri "${KIPRJMOD}/parts/CP2102-GM.kicad_sym")(options "")(descr ""))
+  (lib (name "3v3LDO")(type "KiCad")(uri "${KIPRJMOD}/parts/AMS1117.kicad_sym")(options "")(descr ""))
 )
