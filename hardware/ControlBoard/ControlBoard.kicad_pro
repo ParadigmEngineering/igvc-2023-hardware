@@ -383,7 +383,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ETHERNET",
-        "nets": [],
+        "nets": [
+          "/RX_N",
+          "/RX_P",
+          "/TX_N",
+          "/TX_P"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
