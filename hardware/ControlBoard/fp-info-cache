@@ -1,4 +1,4 @@
-20350609302804306
+20355646360147350
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85981,12 +85981,33 @@ controlLib
 6
 6
 controlLib
+AP2210K-5.0TRG1
+
+
+0
+0
+0
+controlLib
+AP63203WU-7
+
+
+0
+6
+6
+controlLib
 CP2102-GM
 
 
 0
 29
 29
+controlLib
+LD1086DT33TR
+
+
+0
+3
+3
 controlLib
 Lora_Module
 
