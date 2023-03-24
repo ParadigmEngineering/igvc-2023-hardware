@@ -1,4 +1,4 @@
-20359004887285512
+20363822801566808
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86023,6 +86023,27 @@ Lora_Module
 36
 36
 controlLib
+Paradigm_NameBelow_12.7mm
+
+
+0
+0
+0
+controlLib
+Paradigm_NameBelow_25.4mm
+
+
+0
+0
+0
+controlLib
+Paradigm_Title_Block
+
+
+0
+0
+0
+controlLib
 SOT229P700X180-4N
 
 
@@ -86041,15 +86062,15 @@ TXB0106PWR
 
 
 0
-0
-0
+16
+16
 controlLib
 XCVR_ESP32-S3-WROOM-1U
 
 
 0
 61
-61
+49
 interstate_footprints
 EG1218
 
