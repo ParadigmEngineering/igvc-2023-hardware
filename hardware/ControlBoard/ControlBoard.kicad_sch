@@ -7529,7 +7529,7 @@
     (in_bom yes) (on_board yes)
     (uuid 70e03c1b-072d-443f-a14b-df670de7d8b4)
     (property "Reference" "U5" (id 0) (at 242.57 154.94 0))
-    (property "Value" "ESP32-S3-WROOM-1U" (id 1) (at 242.57 157.48 0))
+    (property "Value" "ESP32-S3-WROOM-1U-N16" (id 1) (at 242.57 157.48 0))
     (property "Footprint" "XCVR_ESP32-S3-WROOM-1U" (id 2) (at 242.57 189.23 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
@@ -7548,7 +7548,7 @@
     (property "STANDARD" "Manufacturer Recommendations" (id 7) (at 242.57 189.23 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "LCSC" "C3013946" (id 8) (at 242.57 189.23 0)
+    (property "LCSC" "C2980298" (id 8) (at 242.57 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bb7cc946-6fe6-4df9-b953-106fd5e724d9))
@@ -10997,7 +10997,7 @@
       (reference "U4") (unit 1) (value "LD1086DT33TR") (footprint "controlLib:LD1086DT33TR")
     )
     (path "/70e03c1b-072d-443f-a14b-df670de7d8b4"
-      (reference "U5") (unit 1) (value "ESP32-S3-WROOM-1U") (footprint "XCVR_ESP32-S3-WROOM-1U")
+      (reference "U5") (unit 1) (value "ESP32-S3-WROOM-1U-N16") (footprint "XCVR_ESP32-S3-WROOM-1U")
     )
     (path "/75856a65-d647-4903-9e3e-3e5f5941022c"
       (reference "U6") (unit 1) (value "74LVC1G97W6-7") (footprint "controlLib:74LVC1G97W6-7")
