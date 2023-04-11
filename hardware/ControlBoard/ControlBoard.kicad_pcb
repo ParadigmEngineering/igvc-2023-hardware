@@ -2332,6 +2332,11 @@
       (net 57 "/DTR") (pintype "passive") (tstamp 0dedc252-625f-463b-ae0c-3e0aea5a5865))
     (pad "3" smd rect locked (at 1.01 0 90) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 55 "Net-(Q6-Pad3)") (pintype "passive") (tstamp 27a5f104-86f1-4d33-af3f-7fd11f9a93c4))
+    (model "${KIPRJMOD}/3D_lib/TRAN_SS8050-G_CIP.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" (layer "F.Cu")
@@ -6989,6 +6994,11 @@
       (net 54 "/RTS") (pintype "passive") (tstamp 659342da-114c-428e-9dc3-23863d3774c0))
     (pad "3" smd rect locked (at 1.01 0 90) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 52 "Net-(Q5-Pad3)") (pintype "passive") (tstamp be99b0a6-e3ea-434d-bccb-6a81e0a64122))
+    (model "${KIPRJMOD}/3D_lib/TRAN_SS8050-G_CIP.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
