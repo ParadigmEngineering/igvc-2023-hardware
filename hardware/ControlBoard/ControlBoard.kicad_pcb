@@ -5807,6 +5807,11 @@
       (net 116 "unconnected-(U2-Pad35)") (pinfunction "GPIO13") (pintype "input") (tstamp fa9bb0db-b173-4833-b2b9-c1b12f9f1bba))
     (pad "36" thru_hole circle (at 22.86 43.18 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 117 "unconnected-(U2-Pad36)") (pinfunction "GPIO21") (pintype "input") (tstamp 86f30b73-940c-45f4-87de-ea9d5403820a))
+    (model "${KIPRJMOD}/3D_lib/ESP32 Heltec WIFI.IGS"
+      (offset (xyz 11.5 -22.9 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
