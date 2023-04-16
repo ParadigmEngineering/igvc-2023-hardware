@@ -18,4 +18,9 @@
   (fp_line (start 6.605 4.76) (end -6.605 4.76) (layer "F.CrtYd") (width 0.05) (tstamp 1a4ba67a-ead0-423c-a7d5-a04cbe119293))
   (fp_line (start 6.605 -4.76) (end 6.605 4.76) (layer "F.CrtYd") (width 0.05) (tstamp 5e471789-943c-465b-9ff3-064804143393))
   (fp_line (start -6.605 4.76) (end -6.605 -4.76) (layer "F.CrtYd") (width 0.05) (tstamp d6b95b5f-1b2e-4e73-b7a8-256f9f4f7351))
+  (model "${KIPRJMOD}/Parts/3D Models/577102B00000G.stp"
+    (offset (xyz 0 -4.75 9.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
+  )
 )
