@@ -1,4 +1,4 @@
-20360553652378534
+20362234781902701
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61299,6 +61299,13 @@ PDBLib
 4
 2
 PDBLib
+577102B00000G_HEATSINK
+
+
+0
+0
+0
+PDBLib
 AP2210N-3.3TRG1
 
 
@@ -61387,8 +61394,8 @@ VS-15AWL06FNTR-M3
 
 
 0
-0
-0
+3
+2
 PDBLib
 Y14860R00075F9R
 
