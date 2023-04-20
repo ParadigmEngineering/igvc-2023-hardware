@@ -1,4 +1,4 @@
-20368867683386545
+20370549646962552
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86057,6 +86057,13 @@ Paradigm_Title_Block
 0
 0
 0
+controlLib
+R-78B5.0-2.0
+
+
+0
+3
+3
 controlLib
 SOT229P700X180-4N
 
