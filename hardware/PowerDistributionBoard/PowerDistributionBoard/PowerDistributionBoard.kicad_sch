@@ -6870,7 +6870,7 @@
     (property "Value" "LT1641-1" (id 1) (at 93.4594 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 90.17 91.44 0)
+    (property "Footprint" "PDBLib:LT1641-1CS8#TRPBF" (id 2) (at 90.17 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf" (id 3) (at 95.25 88.9 0)
@@ -8803,7 +8803,7 @@
       (reference "TP5") (unit 1) (value "+9V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/a957320b-6e63-458d-80eb-4ce3c9404919"
-      (reference "U1") (unit 1) (value "LT1641-1") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U1") (unit 1) (value "LT1641-1") (footprint "PDBLib:LT1641-1CS8#TRPBF")
     )
     (path "/efe103fd-3ce0-4747-adbc-34ad97d64139"
       (reference "U2") (unit 1) (value "MAX6643LBBAEET") (footprint "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm")
