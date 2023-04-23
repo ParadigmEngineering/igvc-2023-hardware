@@ -1086,6 +1086,35 @@
         )
       )
     )
+    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
+      (property "Reference" "FID" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Fiducial" (id 1) (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "fiducial marker" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Fiducial Marker" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Fiducial*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Fiducial_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+      )
+    )
     (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
@@ -4309,7 +4338,7 @@
   (symbol (lib_id "power:+3V3") (at 58.42 148.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0b7905c6-d825-4422-8e67-e7419e8b21d5)
-    (property "Reference" "#PWR?" (id 0) (at 58.42 152.4 0)
+    (property "Reference" "#PWR0124" (id 0) (at 58.42 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 58.42 144.78 0))
@@ -4903,6 +4932,23 @@
     (pin "2" (uuid 6ca04030-f653-43be-9085-25318044a03e))
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 243.84 274.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 32bd763e-5866-4065-9630-c90252c0ee9e)
+    (property "Reference" "FID4" (id 0) (at 246.38 273.0499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 246.38 275.5899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (id 2) (at 243.84 274.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 243.84 274.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 229.87 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 33148779-ddaa-4357-bac6-7f6c47877a9d)
@@ -5485,7 +5531,7 @@
   (symbol (lib_id "power:+3V3") (at 58.42 207.01 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 58d75fa6-23b7-4193-a8b6-9448058ff5af)
-    (property "Reference" "#PWR?" (id 0) (at 58.42 210.82 0)
+    (property "Reference" "#PWR0130" (id 0) (at 58.42 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 58.42 203.2 0))
@@ -5892,6 +5938,23 @@
     (pin "2" (uuid bd951f67-2c93-43d2-931c-74e2784e65b2))
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 243.84 261.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 668eea0e-ce9b-4aad-b335-f03aa21ee13a)
+    (property "Reference" "FID2" (id 0) (at 246.38 260.3499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 246.38 262.8899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (id 2) (at 243.84 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 243.84 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 288.29 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 677dfa62-ed81-4470-a738-75b305074100)
@@ -5943,6 +6006,23 @@
     )
     (pin "1" (uuid eefcfe35-e8d7-4077-81d0-b0c73fed16c0))
     (pin "2" (uuid 55fef43f-580b-42b8-936d-4d7031ab736c))
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 243.84 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 68dc53e5-2c63-4fd6-b9e5-b9f5f9f255e1)
+    (property "Reference" "FID3" (id 0) (at 246.38 266.6999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 246.38 269.2399 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (id 2) (at 243.84 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 243.84 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Device:D_Small") (at 167.64 187.96 0) (unit 1)
@@ -6417,7 +6497,7 @@
   (symbol (lib_id "power:+3V3") (at 133.35 198.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 88461bbf-c4b6-4227-ae1d-e7b563a5579e)
-    (property "Reference" "#PWR?" (id 0) (at 133.35 201.93 0)
+    (property "Reference" "#PWR0146" (id 0) (at 133.35 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 133.35 194.31 0))
@@ -6768,7 +6848,7 @@
   (symbol (lib_id "power:+3V3") (at 133.35 139.7 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c3725bb-9c60-4d0c-bc70-2798dfb49a47)
-    (property "Reference" "#PWR?" (id 0) (at 133.35 143.51 0)
+    (property "Reference" "#PWR0141" (id 0) (at 133.35 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 133.35 135.89 0))
@@ -6817,6 +6897,23 @@
     )
     (pin "1" (uuid 1afe60ad-f680-4b04-a27b-aa332e021a46))
     (pin "2" (uuid 0c4d8edc-fad4-4a2b-8b9d-fee786acc5b5))
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 243.84 255.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a4768fc1-3220-46b1-86bb-be2b82457615)
+    (property "Reference" "FID1" (id 0) (at 246.38 253.9999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 246.38 256.5399 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (id 2) (at 243.84 255.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 243.84 255.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Device:D_Small") (at 328.93 35.56 270) (unit 1)
@@ -7181,7 +7278,7 @@
   (symbol (lib_id "power:+3V3") (at 52.07 213.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b1fdb483-0e49-4c55-8600-ab26eaa25f55)
-    (property "Reference" "#PWR?" (id 0) (at 52.07 217.17 0)
+    (property "Reference" "#PWR0139" (id 0) (at 52.07 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 52.07 209.55 0))
@@ -7301,7 +7398,7 @@
   (symbol (lib_id "power:+3V3") (at 52.07 154.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bb2baf7b-1580-44f9-b7b3-bcd76cfd8e50)
-    (property "Reference" "#PWR?" (id 0) (at 52.07 158.75 0)
+    (property "Reference" "#PWR0128" (id 0) (at 52.07 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 52.07 151.13 0))
@@ -7538,7 +7635,7 @@
   (symbol (lib_id "power:+3V3") (at 106.68 124.46 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c842cff7-7bf5-403a-8bee-e057b43df4ef)
-    (property "Reference" "#PWR?" (id 0) (at 106.68 128.27 0)
+    (property "Reference" "#PWR0145" (id 0) (at 106.68 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 106.68 120.65 0))
@@ -8042,7 +8139,7 @@
   (symbol (lib_id "power:+3V3") (at 104.14 240.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e9d9de5d-0a76-486c-a1c2-ef0094193b61)
-    (property "Reference" "#PWR?" (id 0) (at 104.14 243.84 0)
+    (property "Reference" "#PWR0122" (id 0) (at 104.14 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 104.14 236.22 0))
@@ -8288,7 +8385,7 @@
   (symbol (lib_id "power:+3V3") (at 106.68 182.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fb3af1f2-7d96-4c81-80a1-d8e027557820)
-    (property "Reference" "#PWR?" (id 0) (at 106.68 186.69 0)
+    (property "Reference" "#PWR0149" (id 0) (at 106.68 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 106.68 179.07 0))
@@ -8508,8 +8605,14 @@
     (path "/b4689c9b-8762-4237-956b-7f73bd54a1b0"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e9d9de5d-0a76-486c-a1c2-ef0094193b61"
+      (reference "#PWR0122") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/41b6b6cf-ac9d-4087-a0c4-27d144d9603b"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0b7905c6-d825-4422-8e67-e7419e8b21d5"
+      (reference "#PWR0124") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/9d474e83-9e50-4d49-8ad1-e7af6e903fcd"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
@@ -8520,8 +8623,14 @@
     (path "/ea253b87-1be5-46cd-a895-88fb44a2d18f"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
+    (path "/bb2baf7b-1580-44f9-b7b3-bcd76cfd8e50"
+      (reference "#PWR0128") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/4b7b9974-51f0-4965-a77c-04454d857ad4"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/58d75fa6-23b7-4193-a8b6-9448058ff5af"
+      (reference "#PWR0130") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/b35ac330-394f-43d7-804b-7607d9555b71"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
@@ -8547,8 +8656,14 @@
     (path "/187e8cd2-e1de-4bc2-9a74-208f31d9738a"
       (reference "#PWR0138") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b1fdb483-0e49-4c55-8600-ab26eaa25f55"
+      (reference "#PWR0139") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/ce4f04cd-5f18-4ff2-88dc-9f3165bed708"
       (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9c3725bb-9c60-4d0c-bc70-2798dfb49a47"
+      (reference "#PWR0141") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/f4cc254a-72d5-41e0-a8b4-52b95b2c23cc"
       (reference "#PWR0142") (unit 1) (value "+12V") (footprint "")
@@ -8559,11 +8674,20 @@
     (path "/93b473f8-9821-4f00-b5e9-be62919dc6db"
       (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c842cff7-7bf5-403a-8bee-e057b43df4ef"
+      (reference "#PWR0145") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/88461bbf-c4b6-4227-ae1d-e7b563a5579e"
+      (reference "#PWR0146") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/8fef48ac-08b6-4a56-802e-3c7e00634c08"
       (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
     )
     (path "/62948f0f-33e5-4ebf-ac6a-c04fc33c3478"
       (reference "#PWR0148") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/fb3af1f2-7d96-4c81-80a1-d8e027557820"
+      (reference "#PWR0149") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/57840fae-f88f-45b3-a59b-a3e5b4966a46"
       (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
@@ -8621,33 +8745,6 @@
     )
     (path "/1e7a533a-54db-45f6-912b-2bb2b22098a8"
       (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0b7905c6-d825-4422-8e67-e7419e8b21d5"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/58d75fa6-23b7-4193-a8b6-9448058ff5af"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/88461bbf-c4b6-4227-ae1d-e7b563a5579e"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/9c3725bb-9c60-4d0c-bc70-2798dfb49a47"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/b1fdb483-0e49-4c55-8600-ab26eaa25f55"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/bb2baf7b-1580-44f9-b7b3-bcd76cfd8e50"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/c842cff7-7bf5-403a-8bee-e057b43df4ef"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/e9d9de5d-0a76-486c-a1c2-ef0094193b61"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/fb3af1f2-7d96-4c81-80a1-d8e027557820"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/08b6485e-21f8-4f5d-9fee-5fd1c608b3f2"
       (reference "C1") (unit 1) (value "68n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -8777,6 +8874,18 @@
     )
     (path "/a6973419-b1f1-4e70-a893-f72ac357a975"
       (reference "F6") (unit 1) (value "1A") (footprint "PDBLib:3557-2")
+    )
+    (path "/a4768fc1-3220-46b1-86bb-be2b82457615"
+      (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+    )
+    (path "/668eea0e-ce9b-4aad-b335-f03aa21ee13a"
+      (reference "FID2") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+    )
+    (path "/68dc53e5-2c63-4fd6-b9e5-b9f5f9f255e1"
+      (reference "FID3") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+    )
+    (path "/32bd763e-5866-4065-9630-c90252c0ee9e"
+      (reference "FID4") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
     )
     (path "/b22ebbad-22b8-42e9-bb80-2fed7ed5ca81"
       (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
