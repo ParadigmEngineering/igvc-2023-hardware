@@ -1,0 +1,16 @@
+** Drc report for D:\ParadigmBoring\igvc-2023-hardware\hardware\ControlBoard\ControlBoard.kicad_pcb **
+** Created on 2023-04-23 20:45:23 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 2 Footprint errors **
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(80.0500 mm, 77.2750 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(101.8059 mm, 81.4396 mm): Footprint G***
+
+** End of Report **

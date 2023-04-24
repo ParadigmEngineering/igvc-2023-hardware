@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C12,1u,C_0805_2012Metric,-178.325,-51.725,90,bottom
+C13,2.2u,C_0805_2012Metric,-181.275,-48.075,180,bottom
+R15,?,R_0805_2012Metric,-155.2,-59.75,180,bottom
+R16,?,R_0805_2012Metric,-155.2,-61.85,0,bottom
+U6,AP2210N-3.3TRG1,AP2210N-3.3TRG1,-181.275,-52.7,0,bottom

@@ -1,0 +1,2729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\ParadigmBoring\igvc-2023-hardware\hardware\PowerDistributionBoard\PowerDistributionBoard\PowerDistributionBoard.kicad_sch</source>
+    <date>2023-04-23 10:46:27 PM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerDistributionBoard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>68n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C113842</field>
+        <field name="Voltage">44V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="44V"/>
+      <property name="LCSC" value="C113842"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08b6485e-21f8-4f5d-9fee-5fd1c608b3f2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C28233</field>
+        <field name="Voltage">48V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="48V"/>
+      <property name="LCSC" value="C28233"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e09896d9-b282-4be3-9f5c-5dbe2fafacce</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C16005</field>
+        <field name="Voltage">68V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="68V"/>
+      <property name="LCSC" value="C16005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4892959c-fd4e-4fd1-b0c2-34f7efa339a2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>220u</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Digikey">493-5867-ND</field>
+        <field name="LCSC">C1580233</field>
+        <field name="Voltage">48V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Digikey" value="493-5867-ND"/>
+      <property name="Voltage" value="48V"/>
+      <property name="LCSC" value="C1580233"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c14ece78-7c4c-40d2-980d-6e9ab07d1455</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C597440</field>
+        <field name="Voltage">3.3V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="3.3V"/>
+      <property name="LCSC" value="C597440"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e03b9484-4049-45ad-98fe-29d26c955682</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1728</field>
+        <field name="Voltage">0.8V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="0.8V"/>
+      <property name="LCSC" value="C1728"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fea3b96-0ab4-4eb5-bc16-9d8ff4a5bbdb</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C597440</field>
+        <field name="Voltage">3.3V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="3.3V"/>
+      <property name="LCSC" value="C597440"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9711162e-7c71-4bc4-bfc0-be2bccc361b1</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>2.2n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1728</field>
+        <field name="Voltage">0.8V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="0.8V"/>
+      <property name="LCSC" value="C1728"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3590123c-6090-420a-b45e-2ae04b9d6c02</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>33u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Digikey">1189-2207-ND</field>
+        <field name="LCSC">C159830</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digikey" value="1189-2207-ND"/>
+      <property name="LCSC" value="C159830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dac9f364-e53d-4c5d-b34b-b6ad052dded6</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Digikey">478-10001-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digikey" value="478-10001-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6600d8c-a2e6-4bda-84d0-ffc085ab6026</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C116352</field>
+        <field name="Voltage">12V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="12V"/>
+      <property name="LCSC" value="C116352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60aa87ee-eb1c-415c-b9d1-3eed3e8e16ed</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C116352</field>
+        <field name="Voltage">12V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="12V"/>
+      <property name="LCSC" value="C116352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf263375-0958-450b-9319-84ce34c5deb9</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C107366</field>
+        <field name="Voltage">3.3V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="3.3V"/>
+      <property name="LCSC" value="C107366"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5fce902-1583-4155-83df-f0b35e4acfbf</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C28233</field>
+        <field name="Voltage">48V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="48V"/>
+      <property name="LCSC" value="C28233"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3df60df-bb0d-450b-aea9-0a99a5bb12a5</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C597440</field>
+        <field name="Voltage">3.3V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="3.3V"/>
+      <property name="LCSC" value="C597440"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4122d5d8-56dc-4764-b004-a2e64ade2a6a</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C28233</field>
+        <field name="Voltage">48V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="48V"/>
+      <property name="LCSC" value="C28233"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b20bd0f-0113-4f93-92df-1b7edc548675</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>33u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Digikey">1189-2207-ND</field>
+        <field name="LCSC">C159830</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digikey" value="1189-2207-ND"/>
+      <property name="LCSC" value="C159830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b10547a-f30f-42d4-8515-fb49ab0bb621</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C28233</field>
+        <field name="Voltage">48V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="48V"/>
+      <property name="LCSC" value="C28233"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6eb482cf-8d1f-4cbf-bd79-a3d35128b77d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C237493</field>
+        <field name="Voltage">12V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="12V"/>
+      <property name="LCSC" value="C237493"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb4aaa0b-9798-4876-ac07-6ca9e5c0b9ba</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C116352</field>
+        <field name="Voltage">12V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="12V"/>
+      <property name="LCSC" value="C116352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>608f8691-78bb-4277-a8bf-3a63e4af72bc</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>220u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Digikey">1189-2913-ND</field>
+        <field name="LCSC">C88729</field>
+        <field name="Voltage">12V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digikey" value="1189-2913-ND"/>
+      <property name="Voltage" value="12V"/>
+      <property name="LCSC" value="C88729"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>356ceeaf-91ee-4761-b7b3-f4be80f2f7fe</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C116352</field>
+        <field name="Voltage">9V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="9V"/>
+      <property name="LCSC" value="C116352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>636f1c9e-3a0e-463a-9dc5-831043a96db2</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C237493</field>
+        <field name="Voltage">9V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage" value="9V"/>
+      <property name="LCSC" value="C237493"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa710924-ec3a-43bf-b8c3-f7abca2dbedf</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MMSZ5248B</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85774/mmsz5225.pdf</datasheet>
+      <fields>
+        <field name="Digikey">MMSZ5248B-HE3-08GICT-ND</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Digikey" value="MMSZ5248B-HE3-08GICT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a937836-d7ee-47a2-b8a3-8f377775c83d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SML-P11UTT86R</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf</datasheet>
+      <fields>
+        <field name="Digikey">SML-P11UTT86RCT-ND</field>
+        <field name="LCSC">C510300</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digikey" value="SML-P11UTT86RCT-ND"/>
+      <property name="LCSC" value="C510300"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68c14e56-25cb-4ade-aee5-27d8427924b6</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>S1G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/S1A-S1M%20N0560%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digikey">1655-S1GCT-ND</field>
+        <field name="LCSC">C260339</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Digikey" value="1655-S1GCT-ND"/>
+      <property name="LCSC" value="C260339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60a06079-ff6b-453a-827d-db85b87451d5</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>S1G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/S1A-S1M%20N0560%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digikey">1655-S1GCT-ND</field>
+        <field name="LCSC">C260339</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Digikey" value="1655-S1GCT-ND"/>
+      <property name="LCSC" value="C260339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30f1616b-41a0-413a-b878-b4a0e7b922b9</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>S1G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/S1A-S1M%20N0560%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digikey">1655-S1GCT-ND</field>
+        <field name="LCSC">C260339</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Digikey" value="1655-S1GCT-ND"/>
+      <property name="LCSC" value="C260339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf78eeab-7851-4119-b061-3146b8715388</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey">492-2525-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digikey" value="492-2525-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebc3cc6a-87ca-4b18-b4fa-5c5be9d395d0</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey">492-2525-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digikey" value="492-2525-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38ce4180-f401-4e4c-973c-f8b9a1ee3765</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>S1G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/S1A-S1M%20N0560%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digikey">1655-S1GCT-ND</field>
+        <field name="LCSC">C260339</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Digikey" value="1655-S1GCT-ND"/>
+      <property name="LCSC" value="C260339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a52e4bb-aaae-485a-b639-b6e67fcff492</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>PDBLib:VS-15AWL06FNTR-M3</footprint>
+      <datasheet>https://www.vishay.com/docs/93568/vs-15ewl06fn-m3.pdf</datasheet>
+      <fields>
+        <field name="Digikey">VS-15AWL06FNTR-M3GICT-ND</field>
+        <field name="LCSC">C2838505</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Digikey" value="VS-15AWL06FNTR-M3GICT-ND"/>
+      <property name="LCSC" value="C2838505"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dac1e443-59c0-4163-b2cd-73890ab99278</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>PDBLib:VS-15AWL06FNTR-M3</footprint>
+      <datasheet>https://www.vishay.com/docs/93568/vs-15ewl06fn-m3.pdf</datasheet>
+      <fields>
+        <field name="Digikey">VS-15AWL06FNTR-M3GICT-ND</field>
+        <field name="LCSC">C2838505</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Digikey" value="VS-15AWL06FNTR-M3GICT-ND"/>
+      <property name="LCSC" value="C2838505"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf238004-96b5-499e-83dd-10ecbd8e6d04</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>S1G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/S1A-S1M%20N0560%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digikey">1655-S1GCT-ND</field>
+        <field name="LCSC">C260339</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Digikey" value="1655-S1GCT-ND"/>
+      <property name="LCSC" value="C260339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4e0b6f9-74fa-4c84-b630-d328c67ced64</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>S1G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/S1A-S1M%20N0560%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digikey">1655-S1GCT-ND</field>
+        <field name="LCSC">C260339</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Digikey" value="1655-S1GCT-ND"/>
+      <property name="LCSC" value="C260339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae45775a-2d8e-4e97-bfbd-f0efc95089eb</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>S1G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/S1A-S1M%20N0560%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digikey">1655-S1GCT-ND</field>
+        <field name="LCSC">C260339</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Digikey" value="1655-S1GCT-ND"/>
+      <property name="LCSC" value="C260339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>802a641e-5ed6-404b-9a3f-a77357a09499</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey">492-2525-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digikey" value="492-2525-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b31cc57-fd38-459f-b578-21e2bef88dd7</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>1A</value>
+      <footprint>PDBLib:3557-2</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p41.pdf</datasheet>
+      <fields>
+        <field name="Digikey">36-3557-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Digikey" value="36-3557-2-ND"/>
+      <property name="Fuse_Digikey" value=""/>
+      <property name="Fuse_Datasheet" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96c9f6aa-318e-4362-bc75-f01850c8457c</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>10A</value>
+      <footprint>PDBLib:3557-2</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p41.pdf</datasheet>
+      <fields>
+        <field name="Digikey">36-3557-2-ND</field>
+        <field name="Fuse_Datasheet">https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_fks_ato_80v_blade_fuses.pdf</field>
+        <field name="Fuse_Digikey">F5160-ND</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Digikey" value="36-3557-2-ND"/>
+      <property name="Fuse_Digikey" value="F5160-ND"/>
+      <property name="Fuse_Datasheet" value="https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_fks_ato_80v_blade_fuses.pdf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75592e2d-f474-4e10-b0b2-96754d594075</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>25A</value>
+      <footprint>PDBLib:3557-2</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p41.pdf</datasheet>
+      <fields>
+        <field name="Digikey">36-3557-2-ND</field>
+        <field name="Fuse_Datasheet">https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_fks_ato_80v_blade_fuses.pdf</field>
+        <field name="Fuse_Digikey">F5166-ND</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Digikey" value="36-3557-2-ND"/>
+      <property name="Fuse_Digikey" value="F5166-ND"/>
+      <property name="Fuse_Datasheet" value="https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_fks_ato_80v_blade_fuses.pdf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6221c785-6150-440e-99ed-535d0fa908b9</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>2A</value>
+      <footprint>PDBLib:3557-2</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p41.pdf</datasheet>
+      <fields>
+        <field name="Digikey">36-3557-2-ND</field>
+        <field name="Fuse_Datasheet">https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_atof_datasheet.pdf</field>
+        <field name="Fuse_Digikey">0287002.PXCN</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Digikey" value="36-3557-2-ND"/>
+      <property name="Fuse_Digikey" value="0287002.PXCN"/>
+      <property name="Fuse_Datasheet" value="https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_atof_datasheet.pdf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>085b1355-effe-4f41-a2ff-3719c06ce252</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>10A</value>
+      <footprint>PDBLib:3557-2</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p41.pdf</datasheet>
+      <fields>
+        <field name="Digikey">36-3557-2-ND</field>
+        <field name="Fuse_Datasheet">https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_fks_ato_80v_blade_fuses.pdf</field>
+        <field name="Fuse_Digikey">F5160-ND</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Digikey" value="36-3557-2-ND"/>
+      <property name="Fuse_Digikey" value="F5160-ND"/>
+      <property name="Fuse_Datasheet" value="https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_fks_ato_80v_blade_fuses.pdf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0af0c680-d63a-49a8-98db-2ff5e8ca40b0</tstamps>
+    </comp>
+    <comp ref="F6">
+      <value>1A</value>
+      <footprint>PDBLib:3557-2</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p41.pdf</datasheet>
+      <fields>
+        <field name="Digikey">36-3557-2-ND</field>
+        <field name="Fuse_Datasheet">https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_atof_datasheet.pdf</field>
+        <field name="Fuse_Digikey">F4191-ND</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Digikey" value="36-3557-2-ND"/>
+      <property name="Fuse_Digikey" value="F4191-ND"/>
+      <property name="Fuse_Datasheet" value="https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_atof_datasheet.pdf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6973419-b1f1-4e70-a893-f72ac357a975</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4768fc1-3220-46b1-86bb-be2b82457615</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>668eea0e-ce9b-4aad-b335-f03aa21ee13a</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68dc53e5-2c63-4fd6-b9e5-b9f5f9f255e1</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32bd763e-5866-4065-9630-c90252c0ee9e</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b22ebbad-22b8-42e9-bb80-2fed7ed5ca81</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56c04393-7f39-4c93-9008-6a12551f8eab</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a17560e-74fd-4573-89f7-d879455ee602</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33148779-ddaa-4357-bac6-7f6c47877a9d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Battery</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Sr_42820-22XX_1x02_P10.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Digikey">WM11250-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM11250-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43aa0335-200f-40da-9db0-d2652ec237fa</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>FAN 1</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM4112-ND"/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47e317a2-b192-4d98-a10e-e011e405dc5c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>FAN 2</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM4112-ND"/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58e9905c-8657-496b-ab6f-8b64050d02f4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>FAN 3</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM4112-ND"/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4376937d-44c5-4256-9dbb-aa1d6d4b4777</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>FAN 4</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM4112-ND"/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad6ccf02-ebc3-4d08-997e-3c9bd7b1dc35</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Inverter</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Sr_42820-22XX_1x02_P10.00mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/428202223_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey">WM11250-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM11250-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab21a0f4-d62e-47cc-bfff-ed956358f2eb</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Control Board</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/436500215_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey">WM1917-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM1917-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7376158b-b5df-4808-9ad9-f9bd89b3a634</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/436500215_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey">WM1917-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM1917-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc1fe1b5-fa01-4ccb-9197-f574f4f65f8e</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>MOTOR1_PWR</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Sr_42820-22XX_1x02_P10.00mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/428202223_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey">WM11250-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM11250-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b40681b5-3d6d-40b5-b644-65e81149bb05</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>MOTOR2_PWR</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Sr_42820-22XX_1x02_P10.00mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/428202223_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey">WM11250-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM11250-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89f0168b-479c-4f6c-b90e-98d243276301</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Router</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/436500215_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey">WM1917-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey" value="WM1917-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>409aa2d1-c644-4eb1-873d-16fa509276f0</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/csd19506ktt.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1672107690028&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcsd19506ktt</datasheet>
+      <fields>
+        <field name="Digikey">296-49604-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Digikey" value="296-49604-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45186e50-4784-412f-a307-47e14f29fae7</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NPN_EBC</value>
+      <footprint>PDBLib:SST3904T116CT-ND</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/sst3904-e.pdf</datasheet>
+      <fields>
+        <field name="Digikey">SST3904T116CT-ND</field>
+        <field name="LCSC">C79629</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <property name="Digikey" value="SST3904T116CT-ND"/>
+      <property name="LCSC" value="C79629"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>310b6666-1d7c-47e0-9c25-bc622b4cd78b</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SC-59</footprint>
+      <datasheet>https://www.infineon.com/dgdl/BSR802N_Rev2.1.pdf?folderId=db3a3043156fd573011622e10b5c1f67&amp;fileId=db3a30431b0626df011b129302297bc1</datasheet>
+      <fields>
+        <field name="Digikey">BSR802NL6327HTSA1CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Digikey" value="BSR802NL6327HTSA1CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13ac6727-26d4-476d-9a70-c8f8d3f47c32</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SC-59</footprint>
+      <datasheet>https://www.infineon.com/dgdl/BSR802N_Rev2.1.pdf?folderId=db3a3043156fd573011622e10b5c1f67&amp;fileId=db3a30431b0626df011b129302297bc1</datasheet>
+      <fields>
+        <field name="Digikey">BSR802NL6327HTSA1CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Digikey" value="BSR802NL6327HTSA1CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c25dcb15-3155-4ad5-99f7-ac56b3df0b9c</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NPN_EBC</value>
+      <footprint>PDBLib:SST3904T116CT-ND</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/sst3904-e.pdf</datasheet>
+      <fields>
+        <field name="Digikey">SST3904T116CT-ND</field>
+        <field name="LCSC">C79629</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <property name="Digikey" value="SST3904T116CT-ND"/>
+      <property name="LCSC" value="C79629"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88915e98-433a-4c45-b7f7-9378571b1704</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SC-59</footprint>
+      <datasheet>https://www.infineon.com/dgdl/BSR802N_Rev2.1.pdf?folderId=db3a3043156fd573011622e10b5c1f67&amp;fileId=db3a30431b0626df011b129302297bc1</datasheet>
+      <fields>
+        <field name="Digikey">BSR802NL6327HTSA1CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Digikey" value="BSR802NL6327HTSA1CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e99dadd6-4599-43c8-a61e-0b895b185214</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SC-59</footprint>
+      <datasheet>https://www.infineon.com/dgdl/BSR802N_Rev2.1.pdf?folderId=db3a3043156fd573011622e10b5c1f67&amp;fileId=db3a30431b0626df011b129302297bc1</datasheet>
+      <fields>
+        <field name="Digikey">BSR802NL6327HTSA1CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Digikey" value="BSR802NL6327HTSA1CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47a63ddb-3f34-4a03-bcc2-dc864359c0e3</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>DMN62D0U-13</value>
+      <footprint>PDBLib:DMN62D0U-13</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN62D0U.pdf</datasheet>
+      <fields>
+        <field name="Digikey">DMN62D0U-13DICT-ND</field>
+        <field name="LCSC">C156342</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Digikey" value="DMN62D0U-13DICT-ND"/>
+      <property name="LCSC" value="C156342"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6df4c301-bdd6-456c-ae6b-94b714c3ee0f</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>TK100E10N1,S1X</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TK100E10N1_datasheet_en_20140630.pdf?did=12867&amp;prodName=TK100E10N1</datasheet>
+      <fields>
+        <field name="Digikey">TK100E10N1S1X-ND</field>
+        <field name="LCSC">C396029</field>
+      </fields>
+      <libsource lib="" part="Q_NMOS_GDS_1" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Digikey" value="TK100E10N1S1X-ND"/>
+      <property name="LCSC" value="C396029"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bfa1776-a473-45f3-8cd3-c9efaa689512</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>TK100E10N1,S1X</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TK100E10N1_datasheet_en_20140630.pdf?did=12867&amp;prodName=TK100E10N1</datasheet>
+      <fields>
+        <field name="Digikey">TK100E10N1S1X-ND</field>
+        <field name="LCSC">C396029</field>
+      </fields>
+      <libsource lib="" part="Q_NMOS_GDS_1" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Digikey" value="TK100E10N1S1X-ND"/>
+      <property name="LCSC" value="C396029"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aa5f300-b624-4da8-ab21-c2a0d1ac948a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C137524</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C137524"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21873c41-a483-4840-b181-c92396d81d15</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1.3k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C137582</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C137582"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a349270f-a0da-49d4-a5b4-449fb681e3ef</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>46.4k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C317450</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C317450"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9369c90b-d579-4661-a98d-97b635105fd1</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1m</value>
+      <footprint>PDBLib:Y14860R00075F9R</footprint>
+      <datasheet>https://foilresistors.com/docs/63530/CSM5930A.pdf</datasheet>
+      <fields>
+        <field name="Digikey_0.5m">804-Y14860R00050F9RCT-ND</field>
+        <field name="Digikey_0.75m">804-Y14860R00075F9RCT-ND</field>
+        <field name="Digikey_1m">804-Y14860R00100F9RCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey_0.75m" value="804-Y14860R00075F9RCT-ND"/>
+      <property name="Digikey_1m" value="804-Y14860R00100F9RCT-ND"/>
+      <property name="Digikey_0.5m" value="804-Y14860R00050F9RCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f55d1c38-2166-4b55-afb0-5a9d55cd4b02</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>43k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C137524</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C137524"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9541a01-ea5f-4fd7-93af-88c13db96356</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1.3k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C137582</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C137582"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9969910-52bc-44e5-bfdd-b6fe094795db</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C2074472</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C2074472"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c075197-7872-41fc-8dc2-12f15be7f4b1</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C510097</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C510097"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>336953c9-f672-4cf6-8d42-821200ab4e22</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C140869</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C140869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59910e0b-8ef3-4cb1-b046-5f91e1fd4c6d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C140869</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C140869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83a14dbe-1a65-4704-91a7-47c89606528e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C140869</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C140869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7de23712-704e-4051-b42f-8dd8892f8e46</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C140869</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C140869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d77f43f6-7279-45c4-9c56-08f6150a3155</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C140869</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C140869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13ad03b8-579a-46c0-bceb-e07c7f236214</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C237773</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C237773"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f67afff5-f1eb-4e7a-b3b6-9351264546b9</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e656a93-5e7d-4f63-a0a6-bd0926b77c69</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edfe4000-4194-467b-9afa-88182bfd1054</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4091bd75-2a51-4bf8-aefb-22f381d0c828</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64b5813c-a815-406f-be64-5985addfa0de</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C237773</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C237773"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a93870d3-690e-4161-8c65-f4e299ddb90a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C237773</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C237773"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54e2797b-7958-476e-9b0f-1847a1b7ab1a</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32026dd4-72a5-4577-b5b3-d591b0cf3716</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8046250-debd-49d0-aceb-427635568de6</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C237773</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C237773"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c0fa229-3407-4345-9754-f493aa4dad83</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C237773</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C237773"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e06737b8-4a6d-4c58-84ab-31a35192e3ee</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>3.4k_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9573399e-7ff0-4f69-b464-4daa0d8221d3</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C140869</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C140869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a93569f7-e4ea-41a9-b324-7d24aee952fe</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45564d51-6638-463a-b07c-3fcb15698204</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59e586fb-6067-494c-a7cd-13415c7c1662</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a1a52b-bae0-48a1-b635-e006557271b7</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8385da97-26e3-4ef5-b699-1e6f95a10370</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>700</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C483228</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C483228"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b3e6555-2729-4558-b6d6-c440e2a99da8</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C84375</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C84375"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ecc83bf-4943-40de-bb09-ac0528b21a68</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>4.7k_DNP</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ec3f725-ff89-4ee8-9e58-e2cfb79be754</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C105878</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C105878"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>024ae17b-030e-469b-89db-adb2b355ce4f</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C510097</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C510097"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>054ac1d3-a236-4607-bd27-d74d4583e817</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C510097</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C510097"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae487c79-e149-45a0-a255-2880698ef9a5</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-hcj.pdf</datasheet>
+      <fields>
+        <field name="Digikey">HCJ2512ZT0R00CT-ND</field>
+        <field name="LCSC">C346503</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey" value="HCJ2512ZT0R00CT-ND"/>
+      <property name="LCSC" value="C346503"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a623f068-fa05-458d-b7c5-148334aa7287</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-hcj.pdf</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+        <field name="Digikey">HCJ2512ZT0R00CT-ND</field>
+        <field name="LCSC">C346503</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Digikey" value="HCJ2512ZT0R00CT-ND"/>
+      <property name="LCSC" value="C346503"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6543b95-5e66-4ad4-ac00-271fc3300f68</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C510097</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C510097"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4202116a-c026-4093-8af6-baf59b34b538</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-hcj.pdf</datasheet>
+      <fields>
+        <field name="Digikey">HCJ2512ZT0R00CT-ND</field>
+        <field name="LCSC">C346503</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey" value="HCJ2512ZT0R00CT-ND"/>
+      <property name="LCSC" value="C346503"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79af6490-3084-4f97-b0c8-f1100dce1cba</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>0_DNP</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-hcj.pdf</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+        <field name="Digikey">HCJ2512ZT0R00CT-ND</field>
+        <field name="LCSC">C346503</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DNP" value="DNP"/>
+      <property name="Digikey" value="HCJ2512ZT0R00CT-ND"/>
+      <property name="LCSC" value="C346503"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>301a9f9c-37c4-4794-baf4-8c41e63178f2</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C105577</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C105577"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c405a71-c76c-4c01-a2c2-4fcec38a4a35</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C105577</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C105577"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10aa478c-0db6-43f4-8c32-b8bfd30143bb</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C140869</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C140869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9541434-52a7-4922-b145-b558b9e6ce46</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>3.6k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C137533</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C137533"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59b58e53-c819-460e-8abe-47beed21562c</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>PDBLib:EG1218</footprint>
+      <fields>
+        <field name="Digikey">EG1903-ND</field>
+        <field name="LCSC">C273394</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Digikey" value="EG1903-ND"/>
+      <property name="LCSC" value="C273394"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5618abd7-4ca1-4489-a475-16f86141cb89</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>ON</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2031525d-0ee6-452d-b534-8c6e4b217bc4</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa61d21-f725-484d-a3cc-ab10d0cdfe10</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>ESTOP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdc13619-5a5e-48de-97df-28fd537402ec</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>+12V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8e65ab9-8f36-4d88-b7ec-56d47d0ae245</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>+9V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd052688-33f7-4aed-af5b-fbdcee9fedf8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LT1641-1</value>
+      <footprint>PDBLib:LT1641-1CS8#TRPBF</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf</datasheet>
+      <fields>
+        <field name="Digikey">LT1641-1CS8#TRPBFCT-ND</field>
+      </fields>
+      <libsource lib="Power_Management" part="LT1641-1" description="High voltage hot swap controller, +9V to +80V operation, with latching feature"/>
+      <property name="Digikey" value="LT1641-1CS8#TRPBFCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a957320b-6e63-458d-80eb-4ce3c9404919</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MAX6643LBBAEET</value>
+      <footprint>Package_SO:QSOP-16_3.9x4.9mm_P0.635mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/max6643-max6645.pdf</datasheet>
+      <fields>
+        <field name="Digikey">MAX6643LBBAEE+TCT-ND</field>
+      </fields>
+      <libsource lib="PBD_LIB" part="MAX6643LBBAEET" description=""/>
+      <property name="Digikey" value="MAX6643LBBAEE+TCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efe103fd-3ce0-4747-adbc-34ad97d64139</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MAX6643LBBAEET</value>
+      <footprint>Package_SO:QSOP-16_3.9x4.9mm_P0.635mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/max6643-max6645.pdf</datasheet>
+      <fields>
+        <field name="Digikey">MAX6643LBBAEE+TCT-ND</field>
+      </fields>
+      <libsource lib="PBD_LIB" part="MAX6643LBBAEET" description=""/>
+      <property name="Digikey" value="MAX6643LBBAEE+TCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c57c18cd-0210-461d-9370-cc0d7f12c4fb</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MC74HC20ADG</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mc74hc20a-d.pdf</datasheet>
+      <fields>
+        <field name="Digikey">MC74HC20ADGOS-ND</field>
+      </fields>
+      <libsource lib="PBD_LIB" part="MC74HC20ADG" description=""/>
+      <property name="Digikey" value="MC74HC20ADGOS-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94862a9e-9e83-4571-a513-46ffb92bba68</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>KSTW004A2B41Z</value>
+      <footprint>PDBLib:CONV_KSTW004A2B41Z</footprint>
+      <datasheet>https://library.industrialsolutions.abb.com/publibrary/checkout/KSTW004A2B?TNR=Data%20Sheets%7CKSTW004A2B%7CPDF</datasheet>
+      <fields>
+        <field name="Digikey">555-1330-ND</field>
+      </fields>
+      <libsource lib="PBD_LIB" part="KSTW004A2B41Z" description=""/>
+      <property name="Digikey" value="555-1330-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7be75fde-d6cf-43fb-ba54-117a7562113c</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AP2210N-3.3TRG1</value>
+      <footprint>PDBLib:AP2210N-3.3TRG1</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2210.pdf</datasheet>
+      <fields>
+        <field name="Digikey">AP2210N-3.3TRG1DICT-ND</field>
+      </fields>
+      <libsource lib="PBD_LIB" part="AP2210N-3.3TRG1" description=""/>
+      <property name="Digikey" value="AP2210N-3.3TRG1DICT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b070b473-70c0-4a69-90df-d753c9966a8b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>R-78B9.0-1.0</value>
+      <footprint>PDBLib:R-78B9.0-1.0</footprint>
+      <datasheet>https://recom-power.com/pdf/Innoline/R-78B-1.0.pdf</datasheet>
+      <fields>
+        <field name="Digikey">945-1056-ND</field>
+      </fields>
+      <libsource lib="PBD_LIB" part="R-78B9.0-1.0" description=""/>
+      <property name="Digikey" value="945-1056-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistributionBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18e96ac9-4a4f-47ce-9daf-41c71f42f464</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Q_NMOS_GDS_1">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS_1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>https://www.ti.com/lit/ds/symlink/csd19506ktt.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1672107690028&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcsd19506ktt</docs>
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/csd19506ktt.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1672107690028&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcsd19506ktt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_EBC">
+      <description>NPN transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PBD_LIB" part="AP2210N-3.3TRG1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2210N-3.3TRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PBD_LIB" part="KSTW004A2B41Z">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KSTW004A2B41Z</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN+" type="input"/>
+        <pin num="2" name="ON/OFF" type="input"/>
+        <pin num="3" name="VIN-" type="input"/>
+        <pin num="4" name="VO-" type="output"/>
+        <pin num="5" name="SENSE-" type="input"/>
+        <pin num="6" name="TRIM" type="input"/>
+        <pin num="7" name="SENSE+" type="input"/>
+        <pin num="8" name="VO+" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="PBD_LIB" part="MAX6643LBBAEET">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX6643LBBAEET</field>
+        <field name="Footprint">SOP63P602X175-16N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TH1" type="input"/>
+        <pin num="2" name="TL2" type="input"/>
+        <pin num="3" name="TL1" type="input"/>
+        <pin num="4" name="~{FANFAIL}" type="output"/>
+        <pin num="5" name="TACHSET" type="input"/>
+        <pin num="6" name="FULLSPD" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="DXP" type="input"/>
+        <pin num="9" name="~{OT}" type="output"/>
+        <pin num="10" name="FAN_IN2" type="input"/>
+        <pin num="11" name="FAN_IN1" type="input"/>
+        <pin num="12" name="PWM_OUT" type="output"/>
+        <pin num="13" name="OT2" type="input"/>
+        <pin num="14" name="OT1" type="input"/>
+        <pin num="15" name="TH2" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PBD_LIB" part="MC74HC20ADG">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC74HC20ADG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="NC" type="input"/>
+        <pin num="4" name="C1" type="input"/>
+        <pin num="5" name="D1" type="input"/>
+        <pin num="6" name="Y1" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Y2" type="output"/>
+        <pin num="9" name="A2" type="input"/>
+        <pin num="10" name="B2" type="input"/>
+        <pin num="11" name="NC" type="input"/>
+        <pin num="12" name="C2" type="input"/>
+        <pin num="13" name="D2" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PBD_LIB" part="R-78B9.0-1.0">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R-78B9.0-1.0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="LT1641-1">
+      <description>High voltage hot swap controller, +9V to +80V operation, with latching feature</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LT1641-1</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ON" type="input"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="PWRGD" type="open_collector"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="TIMER" type="input"/>
+        <pin num="6" name="GATE" type="output"/>
+        <pin num="7" name="Sense" type="input"/>
+        <pin num="8" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PBD_LIB">
+      <uri>D:\ParadigmBoring\igvc-2023-hardware\hardware\PowerDistributionBoard\PowerDistributionBoard/Parts/PBD_LIB.kicad_sym</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Power_Management.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="OT1" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="TACHSET" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="OT1" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="TACHSET" pintype="input"/>
+      <node ref="U4" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+9V">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="VOUT" pintype="input"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="SENSE+" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="VO+" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="4" name="+48V">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="F5" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/12VDCDC_48V">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VIN+" pintype="input"/>
+    </net>
+    <net code="6" name="/BATT_GOOD">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/BATT_RAW">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="Vcc" pintype="power_in"/>
+    </net>
+    <net code="8" name="/CTRL_12V">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/ESTOP">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/FAN_FAIL1_N">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="~{FANFAIL}" pintype="output"/>
+      <node ref="U4" pin="1" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="11" name="/FAN_FAIL2_N">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="~{FANFAIL}" pintype="output"/>
+      <node ref="U4" pin="4" pinfunction="C1" pintype="input"/>
+    </net>
+    <net code="12" name="/FAN_FULLSPD">
+      <node ref="U2" pin="6" pinfunction="FULLSPD" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="FULLSPD" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="Y1" pintype="input"/>
+    </net>
+    <net code="13" name="/FAN_TACH1">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="FAN_IN1" pintype="input"/>
+    </net>
+    <net code="14" name="/FAN_TACH2">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="FAN_IN2" pintype="input"/>
+    </net>
+    <net code="15" name="/FAN_TACH3">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="FAN_IN1" pintype="input"/>
+    </net>
+    <net code="16" name="/FAN_TACH4">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="FAN_IN2" pintype="input"/>
+    </net>
+    <net code="17" name="/INVERTER_48V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/MOTOR1_48VA">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="19" name="/MOTOR1_48VB">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/MOTOR1_48VC">
+      <node ref="Q9" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/MOTOR2_48VA">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="22" name="/MOTOR2_48VB">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/MOTOR2_48VC">
+      <node ref="Q10" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/MOTOR_FET_GATE">
+      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="/OVERTEMP1_N">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="~{OT}" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="B1" pintype="input"/>
+    </net>
+    <net code="26" name="/OVERTEMP2_N">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="~{OT}" pintype="output"/>
+      <node ref="U4" pin="5" pinfunction="D1" pintype="input"/>
+    </net>
+    <net code="27" name="/ROUTER_9V">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F6" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="28" name="/SENSE">
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="Sense" pintype="input"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="OT2" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="TL1" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="OT2" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="TL1" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="B2" pintype="input"/>
+      <node ref="U4" pin="12" pinfunction="C2" pintype="input"/>
+      <node ref="U4" pin="13" pinfunction="D2" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="A2" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="VIN-" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="VO-" pintype="output"/>
+      <node ref="U5" pin="5" pinfunction="SENSE-" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="TIMER" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="DXP" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="DXP" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ON" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GATE" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PWRGD" pintype="open_collector"/>
+    </net>
+    <net code="38" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="PWM_OUT" pintype="output"/>
+    </net>
+    <net code="51" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="PWM_OUT" pintype="output"/>
+    </net>
+    <net code="54" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="ON/OFF" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="TRIM" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(R42-Pad2)">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(SW1-Pad1)">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="TH1" pintype="input+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="TL2" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="TH2" pintype="input+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="TH1" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="TL2" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="TH2" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="Y2" pintype="output+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U4-Pad11)">
+      <node ref="U4" pin="11" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

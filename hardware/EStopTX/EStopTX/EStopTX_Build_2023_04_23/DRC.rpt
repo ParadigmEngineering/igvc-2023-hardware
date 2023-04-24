@@ -1,0 +1,13 @@
+** Drc report for D:\ParadigmBoring\igvc-2023-hardware\hardware\EStopTX\EStopTX\EStopTX.kicad_pcb **
+** Created on 2023-04-23 18:46:39 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 1 Footprint errors **
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(132.4500 mm, 69.3250 mm): Footprint G***
+
+** End of Report **
