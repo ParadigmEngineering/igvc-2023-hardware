@@ -59,7 +59,7 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x0000020_7ffffff8)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes false)
@@ -14601,7 +14601,7 @@
   (gr_text "+3.3V" (at 78.25 86.425) (layer "F.SilkS") (tstamp 67b03954-56dc-48d2-9863-9f5f9168e131)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Paradigm IGVC\nControl Board Rev 1\nDylan Matthews 2023" (at 101.45 73.6) (layer "F.SilkS") (tstamp 728a3eea-7094-4fcd-a7fb-54b2dfc33b16)
+  (gr_text "Paradigm IGVC\nControl Board Rev 1\nDM LC 2023" (at 101.45 73.6) (layer "F.SilkS") (tstamp 728a3eea-7094-4fcd-a7fb-54b2dfc33b16)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "ESTOP_OUT" (at 71.15 121.85 90) (layer "F.SilkS") (tstamp 8ac23813-ad1f-4dba-97d5-8883498ca031)
