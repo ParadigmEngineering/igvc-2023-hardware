@@ -34,78 +34,14 @@ void setup_twai(void)
     }
 }
 
-void tx_twai(void)
+void tx_twai(twai_message_t* message)
 {
-    //Configure message to transmit
-    twai_message_t message;
-    message.identifier = 0xAAAA;
-    message.extd = 1;
-    message.data_length_code = 4;
-    for (int i = 0; i < 4; i++)
-    {
-        message.data[i] = 0;
-    }
-
-    //Queue message for transmission
-    if (twai_transmit(&message, pdMS_TO_TICKS(1000)) == ESP_OK)
-    {
-        Serial.println("Message queued for transmission\n");
-    }
-    else
-    {
-        Serial.println("Failed to queue message for transmission\n");
-    }
+    (void)twai_transmit(message, pdMS_TO_TICKS(1000));
 }
 
 void rx_twai(twai_message_t* message)
 {
-    //Wait for message to be received
-    esp_err_t err_type = twai_receive(message, pdMS_TO_TICKS(10000));
-
-    Serial.println("Error Type: ");
-    Serial.println(err_type);
-
-    if (err_type == ESP_OK)
-    {
-        Serial.println("Message received\n");
-
-        for (int i = 0; i < 8; i++)
-        {
-            Serial.println(message->data[i]);
-        }
-    }
-    else
-    {
-        Serial.println("Failed to receive message\n");
-        for (int i = 0; i < 8; i++)
-        {
-            Serial.println(message->data[i]);
-        }
-        return;
-    }
-
-    //Process received message
-    if (message->extd)
-    {
-        Serial.println("Message is in Extended Format\n");
-    }
-    else
-    {
-        Serial.println("Message is in Standard Format\n");
-    }
-
-    String debug_str = String("ID is ") + String(message->identifier) + String("\n");
-
-    Serial.println(debug_str);
-
-    if (!(message->rtr))
-    {
-        for (int i = 0; i < message->data_length_code; i++)
-        {
-            debug_str = String("Data byte ") + String(i) + String(" = ") + String(message->data[i]) + String("\n");
-            Serial.println(debug_str);
-        }
-    }
+    (void)twai_receive(message, pdMS_TO_TICKS(10000));
 }
 
 void handle_twai_messages(int num_messages)
@@ -113,27 +49,44 @@ void handle_twai_messages(int num_messages)
     twai_message_t     twai_message;
     twai_status_info_t twai_status;
 
-    for (int i = 0; i < num_messages; i++)
+    twai_get_status_info(&twai_status);
+
+    for (int i = 0; i < twai_status.msgs_to_rx; i++)
     {
+        Serial.println("Number of messages waiting to RX");
+        Serial.println(twai_status.msgs_to_rx);
+
         rx_twai(&twai_message);
-        twai_get_status_info(&twai_status);
 
         if (twai_status.state == TWAI_STATE_RUNNING)
         {
             if (twai_message.identifier == TWAI_HEARTBEAT_ID)
             {
+                Serial.println("Updating last heartbeat time!");
                 last_heartbeat_time_ms = millis();
+
+                // Configure new state message to transmit
+                twai_message_t message;
+                message.identifier = 0x0001;
+                message.extd = 1;
+                message.data_length_code = 4;
+                for (int i = 0; i < 4; i++)
+                {
+                    message.data[i] = 0;
+                }
+
+                tx_twai(&message);
             }
 
             else if (TWAI_IS_MOTOR_CONTROL(twai_message.identifier))
             {
-                if ((twai_message.identifier & TWAI_MOTOR_L_CONTROL_MANUAL) ||
-                    (twai_message.identifier & TWAI_MOTOR_L_CONTROL_AUTONOMOUS))
+                if ((twai_message.identifier == TWAI_MOTOR_L_CONTROL_MANUAL) ||
+                    (twai_message.identifier == TWAI_MOTOR_L_CONTROL_AUTONOMOUS))
                 {
                     pwm_left_motor_control(&twai_message);
                 }
-                else if ((twai_message.identifier & TWAI_MOTOR_R_CONTROL_MANUAL) ||
-                         (twai_message.identifier & TWAI_MOTOR_R_CONTROL_AUTONOMOUS))
+                else if ((twai_message.identifier == TWAI_MOTOR_R_CONTROL_MANUAL) ||
+                         (twai_message.identifier == TWAI_MOTOR_R_CONTROL_AUTONOMOUS))
                 {
                     pwm_right_motor_control(&twai_message);
                 }
@@ -141,16 +94,19 @@ void handle_twai_messages(int num_messages)
 
             else if (twai_message.identifier & TWAI_STATE_CHANGE_MASK)
             {
-                fsm_get_next_state(twai_message.identifier, false);
+                fsm_get_next_state(twai_message.identifier);
+
+                Serial.println("Current state");
+                Serial.println(current_state);
             }
         }
-
-        // Stop receiving if there aren't any messages in the queue
-        else if (twai_status.msgs_to_rx == 0)
-        {
-            break;
-        }
     }
+
+    // TODO: Integrate boot cycle on heartbeat timeout
+    // if (last_heartbeat_time_ms >= 5000)
+    // {
+    //     fsm_get_next_state(twai_message.identifier);
+    // }
 }
 
 void stop_twai(void)

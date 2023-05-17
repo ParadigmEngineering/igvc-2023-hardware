@@ -27,12 +27,17 @@ void setup_twai(void);
 /*
  * @brief Send TWAI messages over configured pins.
  */
-void tx_twai(void);
+void tx_twai(twai_message_t* message);
 
 /*
  * @brief Receive TWAI messages over configured pins.
  */
 void rx_twai(twai_message_t* message);
+
+/*
+ * @brief Handle a given number of TWAI messages per loop.
+ */
+void handle_twai_messages(int num_messages);
 
 /*
  * @brief Stops and uninstalls the TWAI drivers. 

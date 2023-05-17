@@ -8,6 +8,7 @@ void flash_leds(void)
 {
     switch (current_state)
     {
+        //case FSM_BOOT: // Fallthrough
         case FSM_STANDBY:
             digitalWrite(DEBUG_LED, HIGH);
             digitalWrite(LAMP1_ON, HIGH);

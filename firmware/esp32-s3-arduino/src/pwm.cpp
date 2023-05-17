@@ -1,5 +1,8 @@
 #include "pwm.h"
 
+void pwm_set_motor_left_freq(uint16_t freq);
+void pwm_set_motor_right_freq(uint16_t freq);
+
 void pwm_init(void)
 {
     // Prepare and apply LEDC PWM timer for left motor
@@ -45,16 +48,59 @@ void pwm_init(void)
         .hpoint         = 0
     };
     ESP_ERROR_CHECK(ledc_channel_config(&ledc_channel_motor_right));
+
+    // Set duty pct default to 50%
+    pwm_set_duty_pct();
 }
 
 void pwm_left_motor_control(twai_message_t* message)
 {
-    Serial.println(message->identifier);
+    if (current_state == FSM_AUTONOMOUS ||
+        current_state == FSM_MANUAL)
+    {
+        Serial.println("Handling left motor controls!");
+        Serial.println(message->identifier);
+
+        uint64_t sum = 0;
+        for (int i = 0; i < 8; i++)
+        {
+            sum += message->data[i];
+        }
+
+        Serial.println("Sum of payload: ");
+        Serial.println(sum);
+
+        uint32_t left_motor_freq = linear_interpolate(sum);
+
+        Serial.println("Setting left motor frequency to:");
+        Serial.println(left_motor_freq);
+        pwm_set_motor_left_freq(left_motor_freq);
+    }
 }
 
 void pwm_right_motor_control(twai_message_t* message)
 {
-    Serial.println(message->identifier);
+    if (current_state == FSM_AUTONOMOUS ||
+        current_state == FSM_MANUAL)
+    {
+        Serial.println("Handling Right motor controls!");
+        Serial.println(message->identifier);
+
+        uint64_t sum = 0;
+        for (int i = 0; i < 8; i++)
+        {
+            sum += message->data[i];
+        }
+
+        Serial.println("Sum of payload: ");
+        Serial.println(sum);
+
+        uint32_t right_motor_freq = linear_interpolate(sum);
+
+        Serial.println("Setting right motor frequency to:");
+        Serial.println(right_motor_freq);
+        pwm_set_motor_left_freq(right_motor_freq);
+    }
 }
 
 void pwm_set_duty_pct(void)
@@ -68,9 +114,20 @@ void pwm_set_duty_pct(void)
     ESP_ERROR_CHECK(ledc_update_duty(LEDC_MODE, LEDC_CHANNEL_MOTOR_RIGHT));
 }
 
-void pwm_set_freq(void)
+void pwm_set_motor_left_freq(uint16_t freq)
 {
-    // Set frequency to 2kHz
-    ESP_ERROR_CHECK(ledc_set_freq(LEDC_MODE, LEDC_TIMER_MOTOR_LEFT, 2000));
-    ESP_ERROR_CHECK(ledc_set_freq(LEDC_MODE, LEDC_TIMER_MOTOR_RIGHT, 2000));
+    if (freq < LEDC_MAX_FREQUENCY &&
+        freq > LEDC_MIN_FREQUENCY)
+    {
+        ESP_ERROR_CHECK(ledc_set_freq(LEDC_MODE, LEDC_TIMER_MOTOR_LEFT, freq));
+    }
+}
+
+void pwm_set_motor_right_freq(uint16_t freq)
+{
+    if (freq < LEDC_MAX_FREQUENCY &&
+        freq > LEDC_MIN_FREQUENCY)
+    {
+        ESP_ERROR_CHECK(ledc_set_freq(LEDC_MODE, LEDC_TIMER_MOTOR_RIGHT, freq));
+    }
 }

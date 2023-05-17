@@ -20,5 +20,3 @@ extern bool     previous_toggle;
  *        otherwise if the bot is in the MANUAL control state, toggle LEDs every 2s
  */
 void flash_leds(void);
-
-void flash_led(void);

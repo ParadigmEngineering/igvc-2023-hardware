@@ -15,6 +15,10 @@
 #include <stdio.h>
 #include <esp_err.h>
 #include "twai.h"
+#include "linear_interpolate.h"
+
+#define LEDC_MAX_FREQUENCY          (3733)
+#define LEDC_MIN_FREQUENCY          (0)
 
 #define LEDC_TIMER_MOTOR_LEFT       LEDC_TIMER_0
 #define LEDC_TIMER_MOTOR_RIGHT      LEDC_TIMER_1
