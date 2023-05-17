@@ -1,30 +1,53 @@
-/*
- * Blink
- * Turns on an LED on for one second,
- * then off for one second, repeatedly.
- */
-
 #include <Arduino.h>
+#include "twai.h"
+#include "pwm.h"
+#include "fsm.h"
+#include "led.h"
 
 // Set LED_BUILTIN if it is not defined by Arduino framework
-#ifndef LED_BUILTIN
-    #define LED_BUILTIN 2
-#endif
+#define LED_BUILTIN 10
 
 void setup()
 {
-  // initialize LED digital pin as an output.
+  // Lamps and Debug LED
   pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LAMP1_ON, OUTPUT);
+  pinMode(LAMP2_ON, OUTPUT);
+  pinMode(LAMP3_ON, OUTPUT);
+  pinMode(LAMP4_ON, OUTPUT);
+
+  // TWAI TX
+  pinMode(GPIO_NUM_48, OUTPUT);
+
+  // TWAI RX
+  pinMode(GPIO_NUM_47, INPUT);
+
+  // Motor Outputs
+  pinMode(GPIO_NUM_41, OUTPUT);
+  pinMode(GPIO_NUM_40, OUTPUT);
+  pinMode(GPIO_NUM_18, OUTPUT);
+  pinMode(GPIO_NUM_17, OUTPUT);
+
+  // Setup Serial Monitor
+  Serial.begin(9600);
+
+  // Initialize TWAI driver
+  setup_twai();
+
+  // Initialize PWM driver
+  pwm_init();
 }
 
 void loop()
 {
-  // turn the LED on (HIGH is the voltage level)
-  digitalWrite(LED_BUILTIN, HIGH);
-  // wait for a second
-  delay(1000);
-  // turn the LED off by making the voltage LOW
-  digitalWrite(LED_BUILTIN, LOW);
-   // wait for a second
-  delay(1000);
+  // fsm_get_next_state(2, false);
+
+  flash_leds();
+
+  twai_message_t msg;
+  rx_twai(&msg);
+
+  digitalWrite(GPIO_NUM_17, HIGH);
+
+  pwm_set_duty_pct();
 }
