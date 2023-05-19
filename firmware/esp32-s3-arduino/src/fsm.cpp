@@ -41,7 +41,7 @@ void fsm_get_next_state(uint32_t id)
         case FSM_BOOT:
         {
             // Delay BOOT -> STANDBY transition for 10s
-            if (fsm_current_time - boot_transition_time > 10000)
+            if ((fsm_current_time - boot_transition_time > 10000) && (digitalRead(ESTOP) == LOW))
             {
                 boot_transition_time = millis();
                 next_state = FSM_STANDBY;

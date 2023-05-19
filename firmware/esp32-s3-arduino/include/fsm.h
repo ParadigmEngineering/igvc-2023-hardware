@@ -14,6 +14,8 @@
 #include "twai.h"
 #include <Arduino.h>
 
+#define ESTOP       9
+
 enum fsm_state_E {
     FSM_STANDBY = 0,
     FSM_AUTONOMOUS,

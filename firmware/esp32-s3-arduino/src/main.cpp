@@ -7,8 +7,6 @@
 // Set LED_BUILTIN if it is not defined by Arduino framework
 #define LED_BUILTIN 10
 
-#define ESTOP       9
-
 void setup()
 {
   // Lamps and Debug LED
@@ -31,7 +29,7 @@ void setup()
   pinMode(GPIO_NUM_17, OUTPUT);
 
   // Enable motor outputs
-  digitalWrite(GPIO_NUM_18, HIGH);
+  digitalWrite(GPIO_NUM_40, HIGH);
   digitalWrite(GPIO_NUM_17, HIGH);
 
   // E-stop
@@ -45,6 +43,9 @@ void setup()
 
   // Initialize PWM driver
   pwm_init();
+
+  pwm_set_motor_left_freq(3000);
+  pwm_set_motor_right_freq(3000);
 }
 
 void loop()
@@ -56,9 +57,20 @@ void loop()
   flash_leds();
 
   // TODO: Validate Estop Functionality
-  // if (!digitalRead(ESTOP))
-  // {
-  //   current_state = FSM_BOOT;
-  //   next_state = FSM_STANDBY;
-  // }
+  if (digitalRead(ESTOP) == HIGH)
+  {
+    current_state = FSM_BOOT;
+    next_state = FSM_STANDBY;
+
+    pwm_set_motor_left_freq(0);
+    pwm_set_motor_right_freq(0);
+
+    pwm_clear_duty_pct();
+
+    digitalWrite(DEBUG_LED, LOW);
+    digitalWrite(LAMP1_ON, LOW);
+    digitalWrite(LAMP2_ON, LOW);
+    digitalWrite(LAMP3_ON, LOW);
+    digitalWrite(LAMP4_ON, LOW);
+  }
 }

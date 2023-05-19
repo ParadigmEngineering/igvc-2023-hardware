@@ -41,7 +41,7 @@ void tx_twai(twai_message_t* message)
 
 void rx_twai(twai_message_t* message)
 {
-    (void)twai_receive(message, pdMS_TO_TICKS(10000));
+    (void)twai_receive(message, pdMS_TO_TICKS(1000));
 }
 
 void handle_twai_messages(int num_messages)
@@ -80,13 +80,13 @@ void handle_twai_messages(int num_messages)
 
             else if (TWAI_IS_MOTOR_CONTROL(twai_message.identifier))
             {
-                if ((twai_message.identifier == TWAI_MOTOR_L_CONTROL_MANUAL) ||
-                    (twai_message.identifier == TWAI_MOTOR_L_CONTROL_AUTONOMOUS))
+                if ((twai_message.identifier & TWAI_MOTOR_L_AUTONOMOUS_CONTROL_MASK) ||
+                    (twai_message.identifier & TWAI_MOTOR_L_MANUAL_CONTROL_MASK))
                 {
                     pwm_left_motor_control(&twai_message);
                 }
-                else if ((twai_message.identifier == TWAI_MOTOR_R_CONTROL_MANUAL) ||
-                         (twai_message.identifier == TWAI_MOTOR_R_CONTROL_AUTONOMOUS))
+                else if ((twai_message.identifier & TWAI_MOTOR_R_AUTONOMOUS_CONTROL_MASK) ||
+                         (twai_message.identifier & TWAI_MOTOR_R_MANUAL_CONTROL_MASK))
                 {
                     pwm_right_motor_control(&twai_message);
                 }
@@ -95,9 +95,6 @@ void handle_twai_messages(int num_messages)
             else if (twai_message.identifier & TWAI_STATE_CHANGE_MASK)
             {
                 fsm_get_next_state(twai_message.identifier);
-
-                Serial.println("Current state");
-                Serial.println(current_state);
             }
         }
     }
