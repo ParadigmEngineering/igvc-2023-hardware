@@ -33,9 +33,9 @@
 
 #define LEDC_CHANNEL_MOTOR_LEFT         LEDC_CHANNEL_0
 #define LEDC_CHANNEL_MOTOR_RIGHT        LEDC_CHANNEL_1
-#define LEDC_DUTY_RES                   LEDC_TIMER_13_BIT // Set duty resolution to 13 bits
-#define LEDC_DUTY                       (4095) // Set duty to 50%. ((2 ** 13) - 1) * 50% = 4095
-#define LEDC_FREQUENCY                  (3000) // Frequency in Hertz. Set frequency at 3 kHz
+#define LEDC_DUTY_RES                   LEDC_TIMER_8_BIT // Set duty resolution to 13 bits
+#define LEDC_DUTY                       (255) // Set duty to 50%. ((2 ** 13) - 1) * 50% = 4095
+#define LEDC_FREQUENCY                  (3733) // Frequency in Hertz. Set frequency at 3 kHz
 
 /*
  * @brief Configures and initializes PWM/LEDC drivers.
@@ -71,5 +71,10 @@ void pwm_set_motor_left_freq(uint16_t freq);
  * @brief Set the right motor PWM frequency.
  */
 void pwm_set_motor_right_freq(uint16_t freq);
+
+/*
+ * @brief Slow down both motor rpms linearly over 3s in the case of an estop.
+ */
+void pwm_estop(void);
 
 #endif // PWM_H

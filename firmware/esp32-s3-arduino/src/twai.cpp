@@ -102,7 +102,8 @@ void handle_twai_messages(int num_messages)
     // TODO: Integrate boot cycle on heartbeat timeout
     // if (last_heartbeat_time_ms >= 5000)
     // {
-    //     fsm_get_next_state(twai_message.identifier);
+    //     current_state = FSM_BOOT;
+    //     next_state = FSM_STANDBY;
     // }
 }
 
