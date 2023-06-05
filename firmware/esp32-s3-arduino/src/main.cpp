@@ -8,6 +8,35 @@
 #define LED_BUILTIN 10
 
 long int startup_time = 0;
+long int kick_count_1 = 0;
+long int kick_count_2 = 0;
+long int kick_time_1 = millis();
+long int kick_time_2 = millis();
+
+void estop_routine()
+{
+  current_state = FSM_BOOT;
+  next_state = FSM_STANDBY;
+
+  pwm_set_motor_left_freq(0);
+  pwm_set_motor_right_freq(0);
+
+  ledc_timer_pause(LEDC_MODE, LEDC_TIMER_MOTOR_LEFT);
+  ledc_timer_pause(LEDC_MODE, LEDC_TIMER_MOTOR_RIGHT);
+
+  // pwm_clear_duty_pct();
+
+  digitalWrite(DEBUG_LED, LOW);
+  digitalWrite(LAMP1_ON, LOW);
+  digitalWrite(LAMP2_ON, LOW);
+  digitalWrite(LAMP3_ON, LOW);
+  digitalWrite(LAMP4_ON, LOW);
+
+  digitalWrite(GPIO_NUM_39, LOW);
+  digitalWrite(GPIO_NUM_16, LOW);
+
+  twai_clear_receive_queue();
+}
 
 void setup()
 {
@@ -54,6 +83,8 @@ void setup()
 
   startup_time = millis();
 
+  attachInterrupt(ESTOP, estop_routine, RISING);
+
   // pwm_set_motor_left_freq(2000);
   // pwm_set_motor_right_freq(2000);
 }
@@ -74,35 +105,49 @@ void loop()
   // }
 
   // TODO: Validate Estop Functionality
-  if (digitalRead(ESTOP) == HIGH)
+  if (digitalRead(GPIO_NUM_7) == LOW)
   {
-    current_state = FSM_BOOT;
-    next_state = FSM_STANDBY;
-
-    pwm_set_motor_left_freq(0);
-    pwm_set_motor_right_freq(0);
-
-    ledc_timer_pause(LEDC_MODE, LEDC_TIMER_MOTOR_LEFT);
-    ledc_timer_pause(LEDC_MODE, LEDC_TIMER_MOTOR_RIGHT);
-
-    // pwm_clear_duty_pct();
-
-    digitalWrite(DEBUG_LED, LOW);
-    digitalWrite(LAMP1_ON, LOW);
-    digitalWrite(LAMP2_ON, LOW);
-    digitalWrite(LAMP3_ON, LOW);
-    digitalWrite(LAMP4_ON, LOW);
-
-    digitalWrite(GPIO_NUM_39, LOW);
     digitalWrite(GPIO_NUM_16, LOW);
-
-    twai_clear_receive_queue();
+    delay(100);
+    digitalWrite(GPIO_NUM_16, HIGH);
+    if (kick_count_1 == 0)
+    {
+      kick_time_1 = millis();
+    }
+    kick_count_1++;
+  }
+  else if (digitalRead(GPIO_NUM_37) == LOW)
+  {
+    digitalWrite(GPIO_NUM_39, LOW);
+    delay(100);
+    digitalWrite(GPIO_NUM_39, HIGH);
+    if (kick_count_2 == 0)
+    {
+      kick_time_2 = millis();
+    }
+    kick_count_2++;
+  }
+  else if ((kick_count_1 >= 2) || (kick_count_2 >= 2) )
+  {
+    estop_routine();
+  }
+  else if ((millis() - kick_time_1) > 60000)
+  {
+    kick_count_1 = 0;
+  }
+  else if ((millis() - kick_time_2) > 60000)
+  {
+    kick_count_2 = 0;
   }
   else
   {
     digitalWrite(GPIO_NUM_39, HIGH);
     digitalWrite(GPIO_NUM_16, HIGH);
   }
+
+
+
+
 
   // // TODO: Validate Estop Functionality
   // if (digitalRead(ESTOP) == HIGH)
